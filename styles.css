@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Hanken Grotesk, sans-serif;
+}
+
+main{
+    background-color:black;
+    margin: 8rem auto;
+    color:white;
+    width:22rem;
+    padding:1.5rem;
+    border-radius:5px;
+    border:2px solid gray;
+}
+
+section{
+    display:flex;
+    justify-content:space-between;
+    background-color:gray;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    margin-bottom:15px;
+    border:2px solid gray;
+}
+
+#first-nav{
+    display: block; 
+}
+
+#second-nav{
+    display: block;
+}
+
+.container{
+    display:flex;
+    margin-top:10px;
+}
+
+#content-one{
+    border:1px solid gray;
+    border-radius:5px;
+    text-align: left;
+    padding: 20px;
+}
+
+.content-one h2{
+    margin-left:0.1rem;
+}
+.content-one p{
+    margin-top:6px;
+}
+
+#content-two{
+    display:none;
+    border:1px solid gray;
+    border-radius:5px;
+    text-align: left;
+    padding: 20px;
+}
+
+.content-two h2{
+    margin-left:0.1rem;
+}
+.content-two p{
+    margin-top:6px;
+}
+
+.content-one-flexitems, .content-two-flexitems{
+    display:flex;
+    flex-direction:column;
+    padding-top:20px;
+}
+
+label{
+    margin-top:20px;
+}
+
+input{
+    background-color:black;
+    border:1px solid gray;
+    border-radius:5px;
+    margin-top:4px;
+    padding:9px;
+    width:12rem
+}
+
+button{
+    margin:1.6rem 5px;
+    width:7rem;
+    border-radius:5px;
+    border:none;
+    padding:6px;
+    font-size:13px;
+    font-weight:600
+}
+
+nav:hover{
+    background-color:black;
+    border-radius:5px;
+    padding: 4px;
+}

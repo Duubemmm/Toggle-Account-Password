@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta de>
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <main>
+    <section id="header">
+        <nav id="first-nav">Account</nav>
+        
+        <nav id="second-nav">Password</nav>
+    </section>
+
+    <div class="container">
+        <div id="content-one">
+            <form action="#" id="form-one">
+                <h2>Account</h2>
+                <p>Make changes to your account here. Click save when you're done.</p>
+             <div class="content-one-flexitems">
+                    <label for="Name" id="label">Name</label>
+                    <input placeholder="Enter your name">
+                    <label for="UserName">UserName</label>
+                    <input placeholder="@johndoe">
+                    <button>Save Changes</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="content-two">
+            <form action="#" id="form-two">
+                <h2>Password</h2>
+                <p>Change your password here. After saving, you'll be logged out.</p>
+                <div class="content-two-flexitems">
+                    <label>Current Password</label>
+                    <input/>
+                    <label>New Password</label>
+                    <input/>
+                    <button>Save Password</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
