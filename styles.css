@@ -12,9 +12,10 @@ body{
 
 main{
     background-color:black;
-    margin: 8rem auto;
+    margin: 4rem auto;
     color:white;
-    width:22rem;
+    width:25rem;
+    min-height: 70vh;
     padding:1.5rem;
     border-radius:5px;
     border:2px solid gray;
@@ -42,6 +43,7 @@ section{
 .container{
     display:flex;
     margin-top:10px;
+    min-height:60vh
 }
 
 #content-one{
